@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>May Gusto Akong Sabihin</title>
+  <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #3C1F44 0%, #7B3E8B 100%);
+      color: #fff;
+      font-family: 'Segoe UI', 'Arial', sans-serif;
+      transition: background 0.5s;
+    }
+    .container {
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin-bottom: 2.5rem;
+      letter-spacing: 1px;
+    }
+    button {
+      background: #7B3E8B;
+      color: #fff;
+      border: none;
+      border-radius: 2rem;
+      padding: 1rem 2.5rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      cursor: pointer;
+      box-shadow: 0 4px 16px rgba(60,31,68,0.15);
+      transition: background 0.3s, transform 0.2s;
+    }
+    button:active {
+      transform: scale(0.97);
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 1.4rem; }
+      button { font-size: 1rem; padding: 0.8rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>May gusto akong sabihin sa’yo…</h1>
+    <button onclick="window.location.href='secret.html'">Proceed</button>
+  </div>
+</body>
+</html> 
